@@ -16,6 +16,7 @@ Direct Admin Reseller Connection let's your users manage their Direct Admin acco
 I'm doing my best to make it safe, but using it is at your own risk ofcourse!
 
 First Version:
+
 * Widget with user statics
 * Dashboard widget for Reseller stats
 * Settings page
@@ -23,6 +24,7 @@ First Version:
 * English and Dutch
 
 Coming soon:
+
 * Show available webhosting packages
 * Let users update settings, e-mailadresses, forwarders and domainpointers to start with.
 
