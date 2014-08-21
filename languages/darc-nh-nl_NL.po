@@ -1,0 +1,215 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: uptime-robot-nh-nl_NL\n"
+"POT-Creation-Date: 2014-08-21 09:24+0100\n"
+"PO-Revision-Date: 2014-08-21 09:25+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.7\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../darc-dashboard.php:5 ../darc-widget.php:26
+msgid "Used"
+msgstr "Gebruikt"
+
+#: ../darc-dashboard.php:5 ../darc-widget.php:26
+msgid "Max."
+msgstr "Max."
+
+#: ../darc-dashboard.php:6 ../darc-widget.php:27
+msgid "Disk size"
+msgstr "Disk ruimte"
+
+#: ../darc-dashboard.php:9 ../darc-dashboard.php:13 ../darc-dashboard.php:14
+#: ../darc-dashboard.php:17 ../darc-dashboard.php:18 ../darc-dashboard.php:21
+#: ../darc-widget.php:27 ../darc-widget.php:28 ../darc-widget.php:29
+#: ../darc-widget.php:30
+msgid "unlimited"
+msgstr "ongelimiteerd"
+
+#: ../darc-dashboard.php:10 ../darc-widget.php:28
+msgid "Bandwidth"
+msgstr "Bandbreedte"
+
+#: ../darc-dashboard.php:14 ../darc-widget.php:29
+msgid "Domains"
+msgstr "Domeinen"
+
+#: ../darc-dashboard.php:18 ../darc-widget.php:30
+msgid "Databases"
+msgstr "Databases"
+
+#: ../darc-widget.php:11
+msgid "Account Statics"
+msgstr "Account statstieken"
+
+#: ../darc-widget.php:13
+msgid "Disk usage:"
+msgstr "Diskruimte:"
+
+#: ../darc-widget.php:19
+msgid "Bandwidth usage:"
+msgstr "Bandbreedte:"
+
+#: ../direct-admin-reseller-connection.php:26
+msgid "Direct Admin Reseller Settings"
+msgstr "Direct Admin Reseller Instellingen"
+
+#: ../direct-admin-reseller-connection.php:34
+msgid "Direct Admin location"
+msgstr "Direct Admin locatie"
+
+#: ../direct-admin-reseller-connection.php:35
+msgid "Domain or IPadresse examples:"
+msgstr "Domein of IP-adres voorbeelden:"
+
+#: ../direct-admin-reseller-connection.php:36
+msgid ""
+"Running on the same server? You can use http://localhost or <br>http://"
+"nielshoogenhout.be Incase of a <b>secure connection:</b><br> "
+"ssl://12.34.56.78"
+msgstr ""
+"Draait DA op dezelfde server? Je kunt http://localhost gebruik of bijv. "
+"http://nielshoogenhout.be <br>In geval van een<b>beveligde verbinding:</"
+"b><br> ssl://12.34.56.78"
+
+#: ../direct-admin-reseller-connection.php:39
+msgid "Direct Admin port"
+msgstr "Direct Admin poort"
+
+#: ../direct-admin-reseller-connection.php:41
+msgid "Default port used is 2222"
+msgstr "Standaard poort is 2222"
+
+#: ../direct-admin-reseller-connection.php:44
+msgid "Reseller username"
+msgstr "Reseller gebruikersnaam"
+
+#: ../direct-admin-reseller-connection.php:46
+msgid "Reseller DA account"
+msgstr "Reseller DA account"
+
+#: ../direct-admin-reseller-connection.php:50
+#: ../direct-admin-reseller-connection.php:56
+msgid "Reseller password"
+msgstr "Reseller wachtwoord"
+
+#: ../direct-admin-reseller-connection.php:52
+msgid "Your reseller password"
+msgstr "Jou reseller wachtwoord"
+
+#: ../direct-admin-reseller-connection.php:57
+msgid "delete password"
+msgstr "verwijder wachtwoord"
+
+#: ../direct-admin-reseller-connection.php:58
+msgid "Check this field to delete your password form the database."
+msgstr "Selecteer deze optie om je wachtwoord uit de database te verwijderen."
+
+#: ../direct-admin-reseller-connection.php:62
+msgid "Reseller Dashboard Widget"
+msgstr "Reseller Dashboard Widget"
+
+#: ../direct-admin-reseller-connection.php:90
+msgid "Direct Admin username"
+msgstr "Direct Admin gebruikersnaam"
+
+#: ../direct-admin-reseller-connection.php:93
+msgid "Fill in the username of the clients Direct Admin account."
+msgstr "Vul de gebruikersnaam van de clients Direct Admin account in."
+
+#~ msgid "Monitor"
+#~ msgstr "Monitor"
+
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#~ msgid "Type"
+#~ msgstr "Type"
+
+#~ msgid "Today"
+#~ msgstr "Vandaag"
+
+#~ msgid "7 days"
+#~ msgstr "7 dagen"
+
+#~ msgid "30 days"
+#~ msgstr "30 dagen"
+
+#~ msgid "Last year"
+#~ msgstr "Laatste jaar"
+
+#~ msgid "Online"
+#~ msgstr "Online"
+
+#~ msgid "Offline"
+#~ msgstr "Offline"
+
+#~ msgid "Not Available"
+#~ msgstr "Niet beschikbaar"
+
+#~ msgid "HTTP(s)"
+#~ msgstr "HTTP(s)"
+
+#~ msgid "Keyword"
+#~ msgstr "Keyword"
+
+#~ msgid "PING"
+#~ msgstr "PING"
+
+#~ msgid "SSL"
+#~ msgstr "SSL"
+
+#~ msgid "PORT"
+#~ msgstr "POORT"
+
+#~ msgid "FTP"
+#~ msgstr "FTP"
+
+#~ msgid "SMTP"
+#~ msgstr "SMTP"
+
+#~ msgid "POP"
+#~ msgstr "POP"
+
+#~ msgid "IMAP"
+#~ msgstr "IMAP"
+
+#~ msgid "You do not have sufficient permissions to access this page."
+#~ msgstr "Je hebt niet voldoende rechten om deze pagina te bezoeken."
+
+#~ msgid "Copy you Main API Key from the Uptime Robot settings page."
+#~ msgstr "Kopieer je Main API Key vanuit de Uptime Robot instellingen pagina."
+
+#~ msgid "Monitors"
+#~ msgstr "Monitors"
+
+#~ msgid ""
+#~ "Copy your monitor ID's in this field seperated with a - (dash). You can "
+#~ "find your monitor ID in your adressbar when the monitors dashboard is "
+#~ "open."
+#~ msgstr ""
+#~ "Kopieer je monitor id's in dit veld, gescheiden met een -. Je vind je "
+#~ "monitor ID in je adresbalk wanneer je monitor dashbord open is op "
+#~ "uptimerobot.com"
+
+#~ msgid ""
+#~ "Copy your monitor ID's in this field seperated with a You can find your "
+#~ "monitor ID in your adressbar when the monitors dashboard is open."
+#~ msgstr ""
+#~ "Kopieer je monitor id's in dit veld, gescheiden met een -. Je vind je "
+#~ "monitor ID in je adresbalk wanneer je monitor dashbord open is op "
+#~ "uptimerobot.com"
+
+#~ msgid "MAIL"
+#~ msgstr "MAIL"
+
+#~ msgid "Laatste jaar"
+#~ msgstr "Laatste jaar"
