@@ -1,0 +1,402 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: uptime-robot-nh-nl_NL\n"
+"POT-Creation-Date: 2014-08-30 11:18+0100\n"
+"PO-Revision-Date: 2014-08-30 11:19+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../darc-dashboard.php:5 ../darc-widget.php:26
+msgid "Used"
+msgstr "Gebruikt"
+
+#: ../darc-dashboard.php:5 ../darc-widget.php:26
+msgid "Max."
+msgstr "Max."
+
+#: ../darc-dashboard.php:6 ../darc-widget.php:27
+msgid "Disk size"
+msgstr "Disk ruimte"
+
+#: ../darc-dashboard.php:9 ../darc-dashboard.php:13 ../darc-dashboard.php:14
+#: ../darc-dashboard.php:17 ../darc-dashboard.php:18 ../darc-dashboard.php:21
+#: ../darc-mail.php:59 ../darc-widget.php:27 ../darc-widget.php:28
+#: ../darc-widget.php:29 ../darc-widget.php:30
+msgid "unlimited"
+msgstr "ongelimiteerd"
+
+#: ../darc-dashboard.php:10 ../darc-widget.php:28
+msgid "Bandwidth"
+msgstr "Bandbreedte"
+
+#: ../darc-dashboard.php:14 ../darc-widget.php:29
+msgid "Domains"
+msgstr "Domeinen"
+
+#: ../darc-dashboard.php:18 ../darc-widget.php:30
+msgid "Databases"
+msgstr "Databases"
+
+#: ../darc-domain.php:14
+msgid ""
+"If you don't have a website you can use these settings to send the people "
+"visiting your domainname to a webpage of your choise. If you have your own "
+"website you should leave the field blank!"
+msgstr ""
+"Als je geen website hebt kun je deze instellingen gebruiken om de mensen die "
+"je domeinnaam invoeren naar een website naar keuze door te sturen. Als je je "
+"eigen website online hebt staan dien je het veld leeg te laten!"
+
+#: ../darc-domain.php:16
+msgid "Domain forwarders"
+msgstr "Domein forwarders"
+
+#: ../darc-domain.php:22
+msgid "save"
+msgstr "opslaan"
+
+#: ../darc-functions.php:170
+msgid "Could not update the mailbox size."
+msgstr "Niet gelukt om de mailbox grootte bij te werken."
+
+#: ../darc-functions.php:172
+msgid "Updated the mailbox size."
+msgstr "Mailbox grootte bijgewerkt."
+
+#: ../darc-functions.php:207
+msgid "Could not delete the mailbox."
+msgstr "Niet gelukt om de mailbox te verwijderen."
+
+#: ../darc-functions.php:209
+msgid "Deleted the mailbox."
+msgstr "Mailbox verwijdert."
+
+#: ../darc-functions.php:223
+msgid "Could not delete the forwarder."
+msgstr "Niet gelukt om de forwarder te verwijderen."
+
+#: ../darc-functions.php:225
+msgid "Deleted the forwarder."
+msgstr "Forwarder verwijdert."
+
+#: ../darc-functions.php:234
+msgid "Your passwords are not the same."
+msgstr "Je wachtwoorden zijn niet hetzelfde."
+
+#: ../darc-functions.php:237
+msgid "Your password has to be atleast 6 characters."
+msgstr "Je wachtwoord moet minimaal uit 6 karakters bestaan."
+
+#: ../darc-functions.php:240
+msgid "Your password needs at least 1 uppercase character."
+msgstr "Je wachtwoord moet minimaal 1 grote letter bevatten."
+
+#: ../darc-functions.php:243
+msgid "Your password needs at least 1 lowercase character."
+msgstr "Je wachtwoord moet minimaal 1 kleine letter bevatten."
+
+#: ../darc-functions.php:246
+msgid "Your password needs at least 1 number."
+msgstr "Je wachtwoord moet minimaal 1 cijfer bevatten."
+
+#: ../darc-functions.php:249
+msgid "Your password may not contain special characters."
+msgstr "Je wachtwoord mag geen speciale tekens bevatten."
+
+#: ../darc-functions.php:264
+msgid "Could not create the requested mailbox."
+msgstr "Niet gelukt om de mailbox te creëren."
+
+#: ../darc-functions.php:266
+msgid "Created the requested mailbox."
+msgstr "Mailbox aangemaakt."
+
+#: ../darc-functions.php:280
+msgid "Could not create the requested forwarder."
+msgstr "Niet gelukt om de forwarder te creëren.."
+
+#: ../darc-functions.php:282
+msgid "Created the requested forwarder."
+msgstr "Forwarder aangemaakt."
+
+#: ../darc-mail.php:41
+msgid "Mailboxes"
+msgstr "Mailboxen"
+
+#: ../darc-mail.php:43
+msgid "alias"
+msgstr "alias"
+
+#: ../darc-mail.php:43
+msgid "domain"
+msgstr "domein"
+
+#: ../darc-mail.php:43
+msgid "size"
+msgstr "grootte"
+
+#: ../darc-mail.php:43
+msgid "used"
+msgstr "gebruikt"
+
+#: ../darc-mail.php:45
+msgid "There are no existing mailboxes."
+msgstr "Er zijn nog geen mailboxen aangemaakt."
+
+#: ../darc-mail.php:61
+msgid "edit"
+msgstr "wijzig"
+
+#: ../darc-mail.php:61 ../darc-mail.php:125
+msgid "delete"
+msgstr "verwijder"
+
+#: ../darc-mail.php:65 ../darc-mail.php:98
+msgid "Mailbox size"
+msgstr "Mailbox grootte"
+
+#: ../darc-mail.php:68
+msgid "update"
+msgstr "wijzigen"
+
+#: ../darc-mail.php:68 ../darc-mail.php:98
+msgid "Enter \"0\" for unlimited mailbox size."
+msgstr "Geef \"0\" in voor ongelimiteerde opslag."
+
+#: ../darc-mail.php:71 ../darc-mail.php:128
+msgid "Confirm action"
+msgstr "Bevestig actie"
+
+#: ../darc-mail.php:72 ../darc-mail.php:129
+msgid "Are you sure you want to delete"
+msgstr "Wil je onderstaande adres wilt verwijderen"
+
+#: ../darc-mail.php:73 ../darc-mail.php:130
+msgid "no"
+msgstr "nee"
+
+#: ../darc-mail.php:73 ../darc-mail.php:130
+msgid "yes"
+msgstr "ja"
+
+#: ../darc-mail.php:74
+msgid "All your <b><u>not</u></b> downloaded emails will also be deleted!"
+msgstr ""
+"Al je <b><u>niet</u></b> gedownloade emails worden eveneens verwijdert!"
+
+#: ../darc-mail.php:86 ../darc-mail.php:104
+msgid "Added a new mailbox"
+msgstr "Nieuwe mailbox toevoegen"
+
+#: ../darc-mail.php:89 ../darc-mail.php:144
+msgid "Email address"
+msgstr "E-mailadres"
+
+#: ../darc-mail.php:96 ../darc-mail.php:97
+msgid "Password"
+msgstr "wachtwoord"
+
+#: ../darc-mail.php:99 ../darc-mail.php:153
+msgid "added"
+msgstr "maken"
+
+#: ../darc-mail.php:109
+msgid "Forwarders"
+msgstr "Forwarders"
+
+#: ../darc-mail.php:111
+msgid "address"
+msgstr "adres"
+
+#: ../darc-mail.php:111
+msgid "receiver"
+msgstr "ontvanger"
+
+#: ../darc-mail.php:113
+msgid "There are no existing mailforwarders."
+msgstr "Er zijn nog geen forwarders aangemaakt."
+
+#: ../darc-mail.php:141 ../darc-mail.php:158
+msgid "Added a new forwarder"
+msgstr "Nieuwe forwarder toevoegen"
+
+#: ../darc-mail.php:151
+msgid "Send to"
+msgstr "Verzenden aan"
+
+#: ../darc-widget.php:11
+msgid "Account Statics"
+msgstr "Account statstieken"
+
+#: ../darc-widget.php:13
+msgid "Disk usage:"
+msgstr "Diskruimte:"
+
+#: ../darc-widget.php:19
+msgid "Bandwidth usage:"
+msgstr "Bandbreedte:"
+
+#: ../direct-admin-reseller-connection.php:47
+msgid "Direct Admin Reseller Settings"
+msgstr "Direct Admin Reseller Instellingen"
+
+#: ../direct-admin-reseller-connection.php:55
+msgid "Direct Admin location"
+msgstr "Direct Admin locatie"
+
+#: ../direct-admin-reseller-connection.php:56
+msgid "Domain or IPadresse examples:"
+msgstr "Domein of IP-adres voorbeelden:"
+
+#: ../direct-admin-reseller-connection.php:57
+msgid ""
+"Running on the same server? You can use http://localhost or <br>http://"
+"nielshoogenhout.be Incase of a <b>secure connection:</b><br> "
+"ssl://12.34.56.78"
+msgstr ""
+"Draait DA op dezelfde server? Je kunt http://localhost gebruik of bijv. "
+"http://nielshoogenhout.be <br>In geval van een<b>beveligde verbinding:</"
+"b><br> ssl://12.34.56.78"
+
+#: ../direct-admin-reseller-connection.php:60
+msgid "Direct Admin port"
+msgstr "Direct Admin poort"
+
+#: ../direct-admin-reseller-connection.php:62
+msgid "Default port used is 2222"
+msgstr "Standaard poort is 2222"
+
+#: ../direct-admin-reseller-connection.php:65
+msgid "Reseller username"
+msgstr "Reseller gebruikersnaam"
+
+#: ../direct-admin-reseller-connection.php:67
+msgid "Reseller DA account"
+msgstr "Reseller DA account"
+
+#: ../direct-admin-reseller-connection.php:71
+#: ../direct-admin-reseller-connection.php:77
+msgid "Reseller password"
+msgstr "Reseller wachtwoord"
+
+#: ../direct-admin-reseller-connection.php:73
+msgid "Your reseller password"
+msgstr "Jou reseller wachtwoord"
+
+#: ../direct-admin-reseller-connection.php:78
+msgid "delete password"
+msgstr "verwijder wachtwoord"
+
+#: ../direct-admin-reseller-connection.php:79
+msgid "Check this field to delete your password form the database."
+msgstr "Selecteer deze optie om je wachtwoord uit de database te verwijderen."
+
+#: ../direct-admin-reseller-connection.php:83
+msgid "Reseller Dashboard Widget"
+msgstr "Reseller Dashboard Widget"
+
+#: ../direct-admin-reseller-connection.php:111
+msgid "Direct Admin username"
+msgstr "Direct Admin gebruikersnaam"
+
+#: ../direct-admin-reseller-connection.php:114
+msgid "Fill in the username of the clients Direct Admin account."
+msgstr "Vul de gebruikersnaam van de clients Direct Admin account in."
+
+#~ msgid "Monitor"
+#~ msgstr "Monitor"
+
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#~ msgid "Type"
+#~ msgstr "Type"
+
+#~ msgid "Today"
+#~ msgstr "Vandaag"
+
+#~ msgid "7 days"
+#~ msgstr "7 dagen"
+
+#~ msgid "30 days"
+#~ msgstr "30 dagen"
+
+#~ msgid "Last year"
+#~ msgstr "Laatste jaar"
+
+#~ msgid "Online"
+#~ msgstr "Online"
+
+#~ msgid "Offline"
+#~ msgstr "Offline"
+
+#~ msgid "Not Available"
+#~ msgstr "Niet beschikbaar"
+
+#~ msgid "HTTP(s)"
+#~ msgstr "HTTP(s)"
+
+#~ msgid "Keyword"
+#~ msgstr "Keyword"
+
+#~ msgid "PING"
+#~ msgstr "PING"
+
+#~ msgid "SSL"
+#~ msgstr "SSL"
+
+#~ msgid "PORT"
+#~ msgstr "POORT"
+
+#~ msgid "FTP"
+#~ msgstr "FTP"
+
+#~ msgid "SMTP"
+#~ msgstr "SMTP"
+
+#~ msgid "POP"
+#~ msgstr "POP"
+
+#~ msgid "IMAP"
+#~ msgstr "IMAP"
+
+#~ msgid "You do not have sufficient permissions to access this page."
+#~ msgstr "Je hebt niet voldoende rechten om deze pagina te bezoeken."
+
+#~ msgid "Copy you Main API Key from the Uptime Robot settings page."
+#~ msgstr "Kopieer je Main API Key vanuit de Uptime Robot instellingen pagina."
+
+#~ msgid "Monitors"
+#~ msgstr "Monitors"
+
+#~ msgid ""
+#~ "Copy your monitor ID's in this field seperated with a - (dash). You can "
+#~ "find your monitor ID in your adressbar when the monitors dashboard is "
+#~ "open."
+#~ msgstr ""
+#~ "Kopieer je monitor id's in dit veld, gescheiden met een -. Je vind je "
+#~ "monitor ID in je adresbalk wanneer je monitor dashbord open is op "
+#~ "uptimerobot.com"
+
+#~ msgid ""
+#~ "Copy your monitor ID's in this field seperated with a You can find your "
+#~ "monitor ID in your adressbar when the monitors dashboard is open."
+#~ msgstr ""
+#~ "Kopieer je monitor id's in dit veld, gescheiden met een -. Je vind je "
+#~ "monitor ID in je adresbalk wanneer je monitor dashbord open is op "
+#~ "uptimerobot.com"
+
+#~ msgid "MAIL"
+#~ msgstr "MAIL"
+
+#~ msgid "Laatste jaar"
+#~ msgstr "Laatste jaar"
