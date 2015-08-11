@@ -53,6 +53,10 @@ Coming soon:
 
 == Changelog ==
 
+= 0.3.2 =
+* Fixed security issue admin dashboard
+* Reseller admin account is set as default account for admin when empty
+
 = 0.3.1 =
 * Bug fix mailadresses table
 * Improved admin settings navigation

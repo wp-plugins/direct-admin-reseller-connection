@@ -4,7 +4,7 @@ Plugin Name: Direct Admin Reseller Connection
 Plugin URI: https://wordpress.org/plugins/direct-admin-reseller-connection/
 Description: Direct Admin Reseller Connection let's your users manage their Direct Admin account with their Wordpress website profile and login.
 Author: Niels Hoogenhout
-Version: 0.3.1
+Version: 0.3.2
 Author URI: http://nielshoogenhout.eu
 */
 
@@ -21,7 +21,11 @@ function darc_nh_version(){
 	if(get_option('darc_nh_version') == ""){
 		update_option('darc_nh_version',$plugin_data['Version']);
 	}elseif(get_option('darc_nh_version') != $plugin_data['Version']){
-		update_option('darc_nh_version',$plugin_data['Version']);	}
+		update_option('darc_nh_version',$plugin_data['Version']);
+	}
+	if (current_user_can( 'manage_options' ) == true && get_user_meta(get_current_user_id(), "darc_nh_daid", "true" ) == "" && get_option('darc_nh_account') != "") {
+		update_user_meta(get_current_user_id(), 'darc_nh_daid', get_option('darc_nh_account'));
+	}
 }
 
 function darc_nh_scripts() {
@@ -40,7 +44,7 @@ function menu_darc_nh() {
 }
 
 function plugin_options_darc_nh() {
-	if ( is_admin() ) {
+	if ( current_user_can( 'manage_options' ) ) {
 	?>
 
 	<script type="text/javascript">
@@ -171,7 +175,7 @@ function plugin_options_darc_nh() {
 }
 
 function plugin_options_darc_nh2() {
-	if ( is_admin() ) {
+	if ( current_user_can( 'manage_options' ) ) {
 	echo '<div class="wrap"><h2>'. __('Direct Admin Reseller Settings', 'darc-nh').'</h2>';
 	?>
 tzee
