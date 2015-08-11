@@ -49,11 +49,9 @@ function plugin_options_darc_nh() {
 	  	var div = $(this).attr('darc-settings-page');
  		$(".wp-darc-set").hide(); 
        		$(div).show();
-		window.history.pushState(null,null,div);
 		localStorage.setItem("DarcHash", div);
 	    });
-		window.history.pushState(null,null,localStorage.getItem("DarcHash"));
-		if(window.location.hash == "") { var hash = "darc-option-1"; } else { var hash = window.location.hash; }
+		if(localStorage.getItem("DarcHash") == "") { var hash = "darc-option-1"; } else { var hash = localStorage.getItem("DarcHash"); }
 		$(hash).show();
    		if (location.hash) {
  		 setTimeout(function() {
